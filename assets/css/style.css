@@ -208,6 +208,10 @@
     max-width: 513px;
 }
 
+.max_w_628 {
+    max-width: 628px;
+}
+
 .py_103_60 {
     padding-top: 103px;
     padding-bottom: 60px;
@@ -221,6 +225,59 @@
     filter: blur(15px);
 }
 
+/* =============servise============= */
+.max_w_328 {
+    max-width: 328px;
+}
+
+.max_w_319 {
+    max-width: 319px;
+}
+
+.servise_bg_img {
+    background-image: url(../images/png/our-servisebg-img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.servise_IconBox {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+    background: var(--clr-greenIconBox);
+}
+
+.servise_box {
+    /* padding: 40px 22px 64px 18px; */
+    background: #121818;
+    border: 1px solid #FFFFFF29;
+    max-width: 369px;
+    /* width: 100%; */
+    min-height: 318px;
+    border-radius: 16px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin-bottom: 43px;
+}
+
+.serviseBox_padding1 {
+    padding: 40px 22px 64px 18px;
+}
+
+.serviseBox_padding2 {
+    padding: 40px 28px 40px 27px;
+}
+
+.serviseBox_padding3 {
+    padding: 40px 31px 64px 27px;
+}
+
+.servise_box:hover {
+    border: 1px solid var(--clr-parretGreen);
+}
+.position_servise_grident{
+    bottom: -106px;
+}
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;

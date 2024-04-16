@@ -10,6 +10,11 @@
     --clr-btnBlack: #111111;
     --clr-parretGreen: #BAFF00;
     --clr-bodygreen: #0C0C0C;
+    --clr-greenIconBox: #BAFF001A;
+    --clr-lightWhite: #FFFBFF;
+}
+.color-lightWhite{
+    color: var(--clr-lightWhite);
 }
 
 .color-bdoyGreen {
