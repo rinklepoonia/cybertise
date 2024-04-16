@@ -122,6 +122,10 @@
     margin-bottom: 35px;
 }
 
+.ms_10 {
+    margin-left: 10px;
+}
+
 .min-vh-70 {
     min-height: 70vh;
 }
