@@ -2,7 +2,7 @@
     --fs-s: 14px;
     --fs-sm: 16px;
     --fs-md: 24px;
-    --fs-lg: 48px;
+    --fs-lg: 37px;
     --fs-xl: 64px;
     /* ===color-==== */
     --clr-white: #FFFFFF;
@@ -11,7 +11,8 @@
     --clr-parretGreen: #BAFF00;
     --clr-bodygreen: #0C0C0C;
 }
-.color-bdoyGreen{
+
+.color-bdoyGreen {
     background: var(--clr-bodygreen);
 }
 
@@ -49,4 +50,20 @@
 
 .text64-xl {
     font-size: var(--fs-xl);
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-lg: 48px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* --fs-s: 14px; */
+        /* --fs-sm: 16px; */
+        /* --fs-md: 24px; */
+        /* --fs-lg: 48px; */
+        /* --fs-xl: 64px; */
+    }
 }
