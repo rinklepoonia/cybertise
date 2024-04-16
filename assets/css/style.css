@@ -17,6 +17,10 @@
     opacity: 80%;
 }
 
+.opacity_60 {
+    opacity: 60%;
+}
+
 /* =========font-weight========= */
 .fw-normal {
     font-weight: 400 !important;
@@ -184,6 +188,18 @@
         max-width: 467px;
     }
 
+    .touch_box {
+        padding: 10px;
+        max-width: 1140px;
+        min-height: 332px;
+        border: 1px solid #FFFFFF29;
+        border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
 }
 
 /* =========box========= */
@@ -207,8 +223,6 @@
 .mb_5 {
     margin-bottom: 5px;
 }
-
-
 
 .max_w_628 {
     max-width: 628px;
@@ -329,6 +343,32 @@
     padding-bottom: 170px;
 }
 
+/* =============input-section============= */
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.touch_bg {
+    background-image: url(../images/png/touch-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border_none {
+    border: none;
+    outline: none;
+}
+
+.input_box {
+    max-width: 508px;
+    background: #BAFF000F;
+    border: 1px solid var(--clr-borderGren);
+    border-radius: 48px;
+    outline: transparent;
+
+}
+
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;
@@ -336,6 +376,10 @@
 
     .mb_md_10 {
         margin-bottom: 10px;
+    }
+
+    .mb_md_33 {
+        margin-bottom: 33px;
     }
 }
 
@@ -362,5 +406,11 @@
 
     .pt_lg_40 {
         padding-top: 40px;
+    }
+
+    .touch_box {
+        padding: 64px 256px;
+        border: 1px solid #FFFFFF29;
+        border-radius: 24px;
     }
 }
