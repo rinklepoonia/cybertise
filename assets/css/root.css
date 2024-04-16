@@ -3,7 +3,7 @@
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 37px;
-    --fs-xl: 64px;
+    --fs-xl: 50px;
     /* ===color-==== */
     --clr-white: #FFFFFF;
     --clr-navGreen: #12121299;
@@ -14,6 +14,7 @@
     --clr-lightWhite: #FFFBFF;
     --clr-whiteFC: #FCFCFC;
     --clr-borderGren: #BAFF0066;
+    --clr-greyDataBox: #FFFFFF29;
 }
 
 
@@ -65,6 +66,13 @@
     :root {
         --fs-lg: 48px;
         --fs-md: 24px;
+        --fs-xl: 55px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-xl: 64px;
     }
 }
 
