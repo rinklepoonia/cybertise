@@ -234,6 +234,20 @@
     max-width: 319px;
 }
 
+.max_w_581 {
+    max-width: 581px;
+}
+
+.green_line::after {
+    content: "";
+    position: absolute;
+    background: green;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 5px;
+}
+
 .servise_bg_img {
     background-image: url(../images/png/our-servisebg-img.png);
     background-size: cover;
@@ -275,9 +289,11 @@
 .servise_box:hover {
     border: 1px solid var(--clr-parretGreen);
 }
-.position_servise_grident{
+
+.position_servise_grident {
     bottom: -106px;
 }
+
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;
@@ -295,5 +311,9 @@
 
     .max_w_527 {
         max-width: 527px;
+    }
+
+    .max_w_507 {
+        max-width: 507px;
     }
 }
