@@ -163,12 +163,6 @@
     box-shadow: 10px 10px 15px -2px var(--clr-parretGreen);
 }
 
-.hero_linear_grident {
-    background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
-    width: 100%;
-    height: 126px;
-}
-
 .nav_links_underlin {
     transition: all 0.2s linear;
 }
@@ -191,6 +185,17 @@
 
 .nav_links_underlin:hover {
     color: var(--clr-parretGreen);
+}
+
+.hero_linear_grident {
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
+    width: 100%;
+    height: 126px;
+    filter: blur(-41px);
+}
+
+.bottom_9 {
+    bottom: 9px;
 }
 
 .cross span:nth-child(1) {
@@ -239,17 +244,25 @@
     max-width: 628px;
 }
 
-.py_103_60 {
-    padding-top: 103px;
-    padding-bottom: 60px;
+.py_5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.position_sureRight {
+    top: 5%;
 }
 
 .sure_linearGrident {
     background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0) 25.4%, #0C0C0C 70.63%);
-    /* width: 1440px; */
     width: 100%;
     min-height: 104px;
-    filter: blur(15px);
+    filter: blur(17px);
+    z-index: 1;
+}
+
+.bottom_26 {
+    bottom: -26px;
 }
 
 /* =============servise============= */
@@ -290,11 +303,9 @@
 }
 
 .servise_box {
-    /* padding: 40px 22px 64px 18px; */
     background: #121818;
-    border: 1px solid #FFFFFF29;
+    border: 1px solid var(--clr-greyDataBox);
     max-width: 369px;
-    /* width: 100%; */
     min-height: 318px;
     border-radius: 16px;
     transition: all 0.2s linear;
@@ -492,6 +503,13 @@
     }
 }
 
+@media (min-width:576px) {
+    .py_sm_40_60 {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;
@@ -539,12 +557,21 @@
         max-width: 373px;
     }
 
+    .py_lg_103_190 {
+        padding-top: 103px;
+        padding-bottom: 190px;
+    }
+
     .pt_lg_40 {
         padding-top: 40px;
     }
 
     .row_gap_10 {
         row-gap: 10px;
+    }
+
+    .position_sureRight {
+        top: -24%;
     }
 
     .touch_box {
