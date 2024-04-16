@@ -315,6 +315,20 @@
     top: -41%;
 }
 
+/* =============map-section============ */
+.max_w_725 {
+    max-width: 725px;
+}
+
+.pb_60 {
+    padding-bottom: 60px;
+}
+
+.py_80_170 {
+    padding-top: 80px;
+    padding-bottom: 170px;
+}
+
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;
