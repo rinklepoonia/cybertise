@@ -478,6 +478,16 @@
     margin-top: 62px;
 }
 
+.footer_ellipPosition {
+    width: 447px;
+    height: 397px;
+    background: #7CF623;
+    opacity: 2%;
+    filter: blur(50px);
+    right: 0;
+    top: -55%;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
