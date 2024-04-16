@@ -355,9 +355,47 @@
     top: -41%;
 }
 
+.further_ellip2 {
+    width: 520px;
+    height: 350px;
+    background: #23C1CE;
+    opacity: 12%;
+    filter: blur(55px);
+    top: 20%;
+    right: 12%;
+}
+
 /* =============map-section============ */
 .max_w_725 {
     max-width: 725px;
+}
+
+.map_ellip1 {
+    width: 447px;
+    height: 397px;
+    background: #7CF623;
+    filter: blur(135px);
+    opacity: 10%;
+    top: 25%;
+    right: 12%;
+}
+
+.map_ellip2 {
+    width: 520px;
+    height: 350px;
+    background: #BAFF00;
+    filter: blur(135px);
+    opacity: 10%;
+    left: 22%;
+}
+
+.ellip_modification {
+    min-height: 397px;
+    max-width: 447px;
+}
+
+.top_40 {
+    top: 40%;
 }
 
 .pb_60 {
@@ -487,12 +525,14 @@
         padding: 10px;
         max-width: 1140px;
         min-height: 332px;
-        border: 1px solid #FFFFFF29;
+        border: 1px solid var(--clr-greyDataBox);
         border-radius: 24px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        z-index: 1;
     }
 
 }
@@ -580,8 +620,10 @@
 
     .touch_box {
         padding: 64px 256px;
-        border: 1px solid #FFFFFF29;
+        border: 1px solid var(--clr-greyDataBox);
         border-radius: 24px;
+        position: relative;
+        z-index: 1;
     }
 }
 
