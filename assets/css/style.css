@@ -91,8 +91,11 @@
 }
 
 .nav_box {
-    height: 90px;
     background: var(--clr-navGreen);
+}
+
+.h_90 {
+    height: 90px;
 }
 
 .max_w_582 {
@@ -125,8 +128,31 @@
 .hero_linear_grident {
     background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
     width: 100%;
-    /* max-width: 1440px; */
     height: 126px;
+}
+
+.nav_links_underlin {
+    transition: all 0.2s linear;
+}
+
+.nav_links_underlin::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--clr-parretGreen);
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -2px;
+    transition: all 0.2s linear;
+}
+
+.nav_links_underlin:hover::after {
+    width: 100%;
+}
+
+.nav_links_underlin:hover {
+    color: var(--clr-parretGreen);
 }
 
 .cross span:nth-child(1) {
