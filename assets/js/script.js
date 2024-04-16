@@ -24,6 +24,7 @@ const Preload = document.getElementById("preload")
 setTimeout(() => {
     Preload.classList.add("d-none")
 }, "3000");
+
 AOS.init({
     duration: 1200,
 })

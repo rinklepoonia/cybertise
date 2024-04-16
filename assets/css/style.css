@@ -350,6 +350,12 @@
     opacity: 73%;
 }
 
+.position_blueCenter_ellip {
+    top: -26%;
+    left: 15%;
+    opacity: 52%;
+}
+
 /* =================further-servise========== */
 .bg_further {
     background-image: url(../images/png/further_servise_bg.png);
