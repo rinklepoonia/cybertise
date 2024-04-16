@@ -288,7 +288,15 @@
     background: var(--clr-greenIconBox);
 }
 
-.servise_box {
+.serviseBox_bg {
+    background-image: url(../images/png/our_sevise_bg.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid var(--clr-greyDataBox);
+    border-radius: 16px;
+}
+
+/* .servise_box {
     background: #121818;
     border: 1px solid var(--clr-greyDataBox);
     max-width: 369px;
@@ -297,7 +305,7 @@
     transition: all 0.2s linear;
     cursor: pointer;
     margin-bottom: 0;
-}
+} */
 
 .serviseBox_padding1 {
     padding: 40px 22px 64px 18px;
@@ -313,6 +321,7 @@
 
 .servise_box:hover {
     border: 1px solid var(--clr-parretGreen);
+    border-radius: 16px;
 }
 
 .position_servise_grident {
@@ -537,7 +546,7 @@
         flex-direction: column;
         transition: all 300ms linear;
         z-index: 3;
-        background: black;
+        background: var(--clr-bodygreen);
     }
 
     .menuIcon {
