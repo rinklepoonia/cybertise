@@ -339,6 +339,10 @@
 }
 
 /* ================security-experts=========== */
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .py_0_15 {
     padding-top: 0;
     padding-bottom: 15px;
