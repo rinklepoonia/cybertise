@@ -166,7 +166,8 @@
 }
 
 .nav_links_underlin:hover {
-    color: var(--clr-parretGreen);
+    /* color: var(--clr-parretGreen); */
+    opacity: 100%;
 }
 
 .hero_linear_grident {
