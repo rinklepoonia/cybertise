@@ -13,12 +13,16 @@
     font-family: 'Outfit', sans-serif;
 }
 
+.opacity_60 {
+    opacity: 60%;
+}
+
 .opacity_80 {
     opacity: 80%;
 }
 
-.opacity_60 {
-    opacity: 60%;
+.opacity_90 {
+    opacity: 90%;
 }
 
 /* =========font-weight========= */
@@ -348,6 +352,10 @@
     margin-bottom: 15px;
 }
 
+.pb_140 {
+    padding-bottom: 140px;
+}
+
 .touch_bg {
     background-image: url(../images/png/touch-bg-img.png);
     background-size: cover;
@@ -369,6 +377,47 @@
 
 }
 
+/* ==================footer============ */
+.py_48_62 {
+    padding-top: 48px;
+    /* padding-bottom: 62px; */
+}
+
+.py_12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.mb_12 {
+    margin-bottom: 12px;
+}
+
+.mb_2 {
+    margin-bottom: 2px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.bg_grident {
+    background: linear-gradient(180deg, rgba(46, 57, 39, 0.15) 0%, rgba(40, 40, 40, 0) 103.89%);
+}
+
+.footer_IconBox {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 56px;
+    background: linear-gradient(97.95deg, rgba(186, 255, 0, 0.1) 3.73%, rgba(0, 178, 254, 0.1) 113.03%);
+}
+
+.border_bottom {
+    border: 0.5px solid var(--clr-whiteFC);
+    opacity: 40%;
+    margin-top: 62px;
+}
+
 @media (min-width:768px) {
     .data_box {
         padding: 36px 75px 36px 41px;
@@ -380,6 +429,10 @@
 
     .mb_md_33 {
         margin-bottom: 33px;
+    }
+
+    .mb_md_18 {
+        margin-bottom: 18px;
     }
 }
 
@@ -404,8 +457,16 @@
         max-width: 513px;
     }
 
+    .max_w_373 {
+        max-width: 373px;
+    }
+
     .pt_lg_40 {
         padding-top: 40px;
+    }
+
+    .row_gap_10 {
+        row-gap: 10px;
     }
 
     .touch_box {
