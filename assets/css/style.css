@@ -245,6 +245,12 @@
     z-index: 1;
 }
 
+.position_safeEllip {
+    top: -39%;
+    right: 6%;
+    opacity: 88%;
+}
+
 .bottom_26 {
     bottom: -26px;
 }
